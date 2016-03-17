@@ -1,0 +1,6 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/gutenberg.rb
+lib/gutenberg/version.rb
