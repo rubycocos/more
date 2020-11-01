@@ -1,0 +1,17 @@
+= ostructer - Open Struct Builder in Ruby
+
+* http://github.com/geraldb/ostructer
+
+== DESCRIPTION:
+
+Lets you build open structs from nested hashes, arrays and strings.
+
+== INSTALL:
+
+Just install the gem:
+
+  $ sudo gem install ostructer
+
+== LICENSE:
+
+The ostructer sources are dedicated to the public domain. Use it as you please with no restrictions whatsoever.

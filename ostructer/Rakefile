@@ -1,0 +1,23 @@
+require 'hoe'
+require './lib/ostructer.rb'
+
+Hoe.spec 'ostructer' do
+  
+  self.version = Ostructer::VERSION
+  
+  self.summary = 'Ostructer - Open Struct Builder'
+  self.url     = 'http://github.com/geraldb/ostructer'
+  
+  self.author  = 'Gerald Bauer'
+  self.email   = 'gerald.bauer@gmail.com'
+  
+  self.extra_deps = [
+    ['xml-simple','>= 1.1.0']
+  ]
+  
+  self.remote_rdoc_dir = 'doc'
+  
+  # switch extension to .rdoc for gihub formatting
+  self.readme_file  = 'README.rdoc'
+  self.history_file = 'History.rdoc'
+end

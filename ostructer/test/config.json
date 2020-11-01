@@ -1,0 +1,19 @@
+{ config:
+  { logdir: '/var/log/foo/',
+    debugfile: '/tmp/foo.debug',
+    server:
+    [{ name: 'sahara',
+       osname: 'solaris',
+       osversion: '2.6',      
+       address: ['10.0.0.101','10.0.1.101']},
+     { name: 'gobi',
+       osname: 'irix',
+       osversion: '6.5',       
+       address: ['10.0.0.102']},
+     { name: 'kalahari',
+       osname: 'linux',
+       osversion: '2.0.34',      
+       address: ['10.0.0.103', '10.0.1.103']}
+    ]
+  }
+}

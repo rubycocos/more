@@ -1,0 +1,19 @@
+{ customer:
+  { id: '12253',
+    first_name: 'Joe',
+    last_name: 'Joe',    
+    address:
+    [{typ: 'home',
+      line1: '211 Over There',
+      city: 'Jacksonville',
+      state: 'FL',
+      zip_code: '11234'
+     },
+     {typ: 'postal',
+      line1: '3535 Head Office',
+      city: 'Jacksonville',
+      state: 'FL',
+      zip_code: '11234'
+     }]
+  }
+}

@@ -1,0 +1,17 @@
+<Customer id="12253">
+  <first_name>Joe</first_name>
+  <last_name>Joe</last_name>
+  <Address typ="home"> 
+    <line1>211 Over There</line1>
+    <city>Jacksonville</city>
+    <state>FL</state>
+    <zip_code>11234</zip_code>
+  </Address>
+  <Address typ="postal"> 
+    <line1>3535 Head Office</line1>
+    <city>Jacksonville</city>
+    <state>FL</state>
+    <zip_code>11234</zip_code>
+  </Address>
+</Customer>
+<!-- todo: rename typ to type; is ruby method -->

@@ -3,7 +3,9 @@
 Gems:
 
 - [record](record)  - named tuples / records with typed structs / schemas
-- [typeconv](typeconv)   - type converterslibrary / gem - convert strings to numbers, dates, booleans, nulls and more
+- [typeconv](typeconv)   - type converters library / gem - convert strings to numbers, dates, booleans, nulls and more
+- [ostructer](ostructer)   - open struct builder
+
 
 <!-- break -->
 
