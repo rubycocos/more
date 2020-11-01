@@ -1,0 +1,6 @@
+HISTORY.md
+LICENSE.md
+Manifest.txt
+README.md
+Rakefile
+lib/almost-sinatra.rb

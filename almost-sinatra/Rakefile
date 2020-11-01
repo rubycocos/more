@@ -1,0 +1,30 @@
+require 'hoe'
+
+Hoe.spec 'almost-sinatra' do
+
+  self.version = '1.0.0'
+
+  self.summary = 'almost-sinatra - six lines of almost sinatra refactored and bundled up for easy (re)use - build your own webframework from scratch with rack and tilt'
+  self.description = summary
+
+  self.urls     = ['https://github.com/rubylibs/almost-sinatra']
+
+  self.author   = ['Konstantin Haase', 'Gerald Bauer']
+  self.email    = 'ruby-talk@ruby-lang.org'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'HISTORY.md'
+
+  self.extra_deps = [
+    ['rack', '>= 2.0' ],
+    ['tilt', '>= 2.0' ],
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+   required_ruby_version: '>= 2.3'
+  }
+
+end
