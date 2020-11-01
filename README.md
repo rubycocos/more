@@ -4,6 +4,7 @@ Gems:
 
 - [gutenberg](gutenberg)  - the printing press for books (reinvented in ruby)
 - [fotos](fotos)  - manage fotos on the command line
+- [record](record)  - named tuples / records with typed structs / schemas
 
 
 

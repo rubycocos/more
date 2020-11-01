@@ -1,0 +1,26 @@
+require 'hoe'
+require './lib/record/version.rb'
+
+Hoe.spec 'record' do
+
+  self.version = Record::VERSION
+
+  self.summary = "record - named tuples / records with typed structs / schemas"
+  self.description = summary
+
+  self.urls = ['https://github.com/rubycoco/record']
+
+  self.author = 'Gerald Bauer'
+  self.email = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file = 'README.md'
+  self.history_file = 'HISTORY.md'
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+   required_ruby_version: '>= 2.2.2'
+  }
+
+end

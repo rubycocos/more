@@ -1,0 +1,13 @@
+HISTORY.md
+LICENSE.md
+Manifest.txt
+README.md
+Rakefile
+lib/record.rb
+lib/record/base.rb
+lib/record/builder.rb
+lib/record/field.rb
+lib/record/version.rb
+test/helper.rb
+test/test_record.rb
+test/test_version.rb
