@@ -24,6 +24,7 @@ Gems:
 
 <!-- break -->
 - [catalogdb](catalogdb)  - catalog.db schema 'n' models for easy (re)use
+- [rubycat](rubycat)  - ruby (library) catalog (cards) command line tool (using the catalog.db machinery)
 
 
 

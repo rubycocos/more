@@ -1,0 +1,33 @@
+require 'hoe'
+require './lib/rubycat/version.rb'
+
+Hoe.spec 'rubycat' do
+
+  self.version = RubyCat::VERSION
+
+  self.summary = "rubycat - ruby (library) catalog (cards) command line tool (using the catalog.db machinery)"
+  self.description = summary
+
+  self.urls    = ['https://github.com/textkit/rubycat']
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'ruby-talk@ruby-lang.org'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'HISTORY.md'
+
+  self.extra_deps = [
+    ['catalogdb', '>= 0.1.1'],
+    ## 3rd party
+    ['fetcher', '>= 0.4.5'],
+    ['sqlite3']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 1.9.2'
+  }
+
+end

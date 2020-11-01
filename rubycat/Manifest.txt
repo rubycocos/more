@@ -1,0 +1,14 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/rubycat.rb
+lib/rubycat/card.rb
+lib/rubycat/catalog.rb
+lib/rubycat/service/rubygems.rb
+lib/rubycat/version.rb
+test/data/RUBY.md
+test/helper.rb
+test/test_reader.rb
+test/test_rubygems.rb
+test/test_version.rb
