@@ -1,0 +1,17 @@
+
+<h3>Ruby</h3>
+
+<pre>
+  version:       <%= RUBY_VERSION %>
+  release_date:  <%= RUBY_RELEASE_DATE %>
+  platform:      <%= RUBY_PLATFORM %>
+</pre>
+
+
+<h4>Loadpath</h4>
+
+<pre>
+<% $LOAD_PATH.each_with_index do |path,index| %>
+  [<%= index+1 %>] <%= path %>
+<% end %>
+</pre>

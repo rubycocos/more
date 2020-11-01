@@ -1,0 +1,32 @@
+require 'hoe'
+require './lib/about/version.rb'
+
+Hoe.spec 'about' do
+
+  self.version = About::VERSION
+
+  self.summary = 'about - sys info (system information) about your computer, environment, runtime, libs, etc. as mountable web app'
+  self.description = summary
+
+  self.urls    = ['https://github.com/rubylibs/about']
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'webslideshow@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'History.md'
+
+  self.extra_deps = [
+    ['logutils', '>= 0.5'],
+    ['textutils', '>= 0.7']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+   :required_ruby_version => '>= 1.9.2'
+  }
+
+
+end

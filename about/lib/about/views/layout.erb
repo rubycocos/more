@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>About / Sys Info</title>
+  <link href="<%= url('/style.css') %>" rel='stylesheet'>
+</head>
+<body>
+
+<p>
+  About |
+  <%= link_to 'Ruby', ruby_path %>  &bull;
+  <%= link_to 'Env',  env_path  %>  &bull;
+  <%= link_to 'Rack', rack_path %>  &bull;
+  <%= link_to 'Sinatra',  sinatra_path %>  &bull;
+  <%= link_to 'Rails', rails_path %>
+</p>
+
+<%= yield %>
+
+<%= erb :'shared/_version' %>
+
+</body>
+</html>
