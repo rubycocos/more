@@ -1,0 +1,31 @@
+require 'hoe'
+require './lib/fizzbuzzer/version.rb'
+
+Hoe.spec 'fizzbuzzer' do
+
+  self.version = FizzBuzzer::VERSION
+
+  self.summary = "fizzbuzzer - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, ... - a collection of algorithms for playing the word game for children that teaches division (one of the four basic arithmetic operations in mathematics) or helps you find the world's best coders in programming job interviews - are you (re)using the fizzbuzzer library? ;-) - don't reinvent the wheel or the feedbuzzer!"
+  self.description = summary
+
+  self.urls    = ['https://github.com/rubylibs/fizzbuzzer']
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'wwwmake@googlegroups.com'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'HISTORY.md'
+
+  self.extra_deps = [
+    ['noaidi'],
+    ['dry-matcher']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+    required_ruby_version: '>= 2.3'
+  }
+
+end

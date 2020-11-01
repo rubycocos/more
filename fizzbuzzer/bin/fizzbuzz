@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+
+###################
+# DEV TIPS:
+#
+# For local testing run like:
+#
+#    ruby -Ilib bin/fizzbuzz
+#
+# Set the executable bit in Linux. Example:
+#
+#    % chmod a+x bin/fizzbuzz
+#
+
+require 'fizzbuzzer'
+
+FizzBuzzer.main
