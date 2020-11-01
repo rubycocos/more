@@ -18,6 +18,7 @@ Gems:
 
 - [gutenberg](gutenberg)  - the printing press for books (reinvented in ruby)
 - [fotos](fotos)  - manage fotos on the command line
+- [preproc](preproc)   - simple preprocessor (lets you include files in files in files etc.)
 
 
 

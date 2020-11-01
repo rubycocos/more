@@ -1,0 +1,31 @@
+require 'hoe'
+require './lib/preproc/version.rb'
+
+Hoe.spec 'preproc' do
+
+  self.version = Preproc::VERSION
+
+  self.summary = 'preproc - simple preprocessor (lets you include files in files in files etc.)'
+  self.description = summary
+
+  self.urls    = ['https://github.com/rubylibs/preproc']
+
+  self.author  = 'Gerald Bauer'
+  self.email   = 'ruby-talk@ruby-lang.org'
+
+  # switch extension to .markdown for gihub formatting
+  self.readme_file  = 'README.md'
+  self.history_file = 'HISTORY.md'
+
+  self.extra_deps = [
+    ['logutils'],
+    ['fetcher']
+  ]
+
+  self.licenses = ['Public Domain']
+
+  self.spec_extras = {
+   required_ruby_version: '>= 1.9.2'
+  }
+
+end
