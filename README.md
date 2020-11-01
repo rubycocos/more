@@ -22,6 +22,11 @@ Gems:
 - [preproc](preproc)   - simple preprocessor (lets you include files in files in files etc.)
 
 
+<!-- break -->
+- [catalogdb](catalogdb)  - catalog.db schema 'n' models for easy (re)use
+
+
+
 
 ## License
 
