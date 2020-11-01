@@ -1,0 +1,6 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/typeconv.rb
+lib/typeconv/version.rb

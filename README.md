@@ -2,9 +2,13 @@
 
 Gems:
 
+- [record](record)  - named tuples / records with typed structs / schemas
+- [typeconv](typeconv)   - type converterslibrary / gem - convert strings to numbers, dates, booleans, nulls and more
+
+<!-- break -->
+
 - [gutenberg](gutenberg)  - the printing press for books (reinvented in ruby)
 - [fotos](fotos)  - manage fotos on the command line
-- [record](record)  - named tuples / records with typed structs / schemas
 
 
 
