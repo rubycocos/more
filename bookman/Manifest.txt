@@ -1,0 +1,13 @@
+HISTORY.md
+Manifest.txt
+README.md
+Rakefile
+lib/bookman.rb
+lib/bookman/beer.rb
+lib/bookman/bookman.rb
+lib/bookman/config.rb
+lib/bookman/football.rb
+lib/bookman/version.rb
+lib/bookman/world.rb
+test/helper.rb
+test/test_basics.rb

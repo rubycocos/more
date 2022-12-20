@@ -26,6 +26,12 @@ Gems:
 - [catalogdb](catalogdb)  - catalog.db schema 'n' models for easy (re)use
 - [rubycat](rubycat)  - ruby (library) catalog (cards) command line tool (using the catalog.db machinery)
 
+<!-- break -->
+Hyper Book (H9) Gems - A Free Hypertext Book Generator in Ruby
+
+- [hybook](hybook)   - hypertext book generator
+- [bookman](bookman)  -  yet another book builder
+- [bookfile](bookfile)  - builder for books
 
 
 
